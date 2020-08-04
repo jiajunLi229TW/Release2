@@ -9,11 +9,15 @@
   }
   
   main {
+  }
 
+  h1 {
+     text-align: center; 
   }
 
   ul {
-      display: flex;
-      flex-wrap: wrap;
+
   }
-  
+  ul li {
+    margin: 20px;
+}
