@@ -16,8 +16,9 @@
   }
 
   ul {
-
+    display: flex;
+    flex-direction: column;
   }
-  ul li {
+  ul section {
     margin: 20px;
 }
