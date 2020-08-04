@@ -9,6 +9,10 @@
   }
   
   main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
   }
 
   h1 {
@@ -21,4 +25,12 @@
   }
   ul section {
     margin: 20px;
+}
+
+#checkOut {
+    height: 5rem;
+    width: 12rem;
+    text-align: center;
+    border: solid 1px darkgray;
+    border-radius : 10px;
 }
