@@ -2,6 +2,7 @@ const selectedMovie = document.getElementById("selectedBook");
 const LoginArea = document.getElementById("loginContainer");
 const selectionArea = document.getElementById("select");
 const informationButton = document.getElementById("informationCheck");
+const informationCard = document.getElementById("card");
 function checkout(buttonStatus) {
       const filmName = buttonStatus.nextSibling.innerHTML;
       selectedMovie.innerHTML = filmName;
@@ -22,4 +23,16 @@ const passWordValue = document.getElementById("passWord").value;
    {
        alert( "validation failed");
    }
+}
+
+function checkInformation() {
+      if(informationButton.clicked = true) {
+            alert("hello");
+            informationCard.style.display = "block";
+            informationButton.style.display = "none";
+      }
+      else {
+            alert("false");
+      }
+      //if(document. getElementById('button'). clicked == true)
 }
