@@ -12,12 +12,12 @@
       <h1>Lee's Movie List</h1>
       <section id="loginContainer">
         <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username">
+        <input id = "userName" type="text" placeholder="Enter Username">
   
         <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password">
+        <input id = "passWord" type="password" placeholder="Enter Password">
           
-        <button id = "loginButton" type="submit">Login</button>
+        <button id = "loginButton" type="submit" onclick="validate()">Login</button>
         <label>
           <input type="checkbox" checked="checked"> Remember me
         </label>
