@@ -51,3 +51,10 @@ align-items: center;
     padding: 8px;
     background-color: green;
 }
+
+select-area {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
