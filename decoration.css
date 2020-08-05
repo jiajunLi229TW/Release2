@@ -65,6 +65,7 @@ select-area {
   margin: auto;
   text-align: center;
   font-family: arial;
+  display: none;
 }
 
 #title {
@@ -76,4 +77,8 @@ a {
   text-decoration: none;
   font-size: 22px;
   color: black;
+}
+
+#informationCheck {
+  display: none;
 }
