@@ -4,55 +4,122 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie List</title>
-    <link rel="stylesheet" href="./decoration.css"/>
+    <link rel="stylesheet" href="./decoration.css" />
   </head>
 
   <body>
     <main>
-
-      <h1>Lee's Movie List</h1>
+      <h1>Movie List</h1>
       <section id="card">
         <h1>John</h1>
         <p id="title">email: thoughtworks@com</p>
         <p>phone number: 123456</p>
         <div style="margin: 24px 0;">
-          <a href="#"><i class="fa fa-dribbble"></i></a> 
-          <a href="#"><i class="fa fa-twitter"></i></a>  
-          <a href="#"><i class="fa fa-linkedin"></i></a>  
-          <a href="#"><i class="fa fa-facebook"></i></a> 
+          <a href="#"><i class="fa fa-dribbble"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i></a>
         </div>
       </section>
-      <button id = "informationCheck"onclick="checkInformation()">Check personal information</button>
+      <button id="informationCheck" onclick="checkInformation()">
+        Check personal information
+      </button>
       <section id="loginContainer">
         <label for="uname"><b>Username</b></label>
-        <input id = "userName" type="text" placeholder="Enter Username">
-  
+        <input id="userName" type="text" placeholder="Enter Username" />
+
         <label for="psw"><b>Password</b></label>
-        <input id = "passWord" type="password" placeholder="Enter Password">
-          
-        <button id = "loginButton" type="submit" onclick="validate()">Login</button>
-        <label>
-          <input type="checkbox" checked="checked"> Remember me
-        </label>
+        <input id="passWord" type="password" placeholder="Enter Password" />
+
+        <button id="loginButton" type="submit" onclick="validate()">
+          Login
+        </button>
+        <label> <input type="checkbox" checked="checked" /> Remember me </label>
       </section>
-      <select-area id = "select">
-      <ul>
-        <section><input name="itemStatus" type="radio" onclick="checkout(this)"/><label>Star Wars: Episode I - The Phantom Menace</label></section>
-        <section><input name="itemStatus" type="radio" onclick="checkout(this)"/><label>Star Wars: Episode II - Attack of the Clones</label></section>
-        <section><input name="itemStatus" type="radio" onclick="checkout(this)"/><label>Star Wars: Episode III - Revenge of the Sith</label></section>
-        <section><input name="itemStatus" type="radio" onclick="checkout(this)"/><label>Star Wars</label></section>
-        <section><input name="itemStatus" type="radio" onclick="checkout(this)"/><label>Star Wars: Episode V - The Empire Strikes Back</label></section>
-        <section><input name="itemStatus" type="radio" onclick="checkout(this)"/><label>Star Wars: Episode VI - Return of the Jedi</label></section>
-        <section><input name="itemStatus" type="radio" onclick="checkout(this)"/><label>Star Wars: Episode VII - The Force Awakens</label></section>
-        <section><input name="itemStatus" type="radio" onclick="checkout(this)"/><label>Star Wars: Episode VIII - The Last Jedi</label></section>
-        <section><input name="itemStatus" type="radio" onclick="checkout(this)"/><label>Star Wars: Episode IX - The Rise of Skywalker</label></section>
-        <section><input name="itemStatus" type="radio" onclick="checkout(this)"/><label>Star Wars: Episode IX - The Rise of Skywalker</label></section>
-        <section><input name="itemStatus" type="radio" onclick="checkout(this)"/><label>Cloud Atlas</label></section>
-      </ul>
-        <section id="checkOut">
-            <p>Checkout:</p>
-            <p id="selectedBook">please select a book</p>
+      <select-area id="select">
+        <ul>
+          <section>
+            <input
+              name="itemStatus"
+              type="radio"
+              onclick="checkout(this)"
+            /><label>Star Wars: Episode I - The Phantom Menace</label>
           </section>
+          <section>
+            <input
+              name="itemStatus"
+              type="radio"
+              onclick="checkout(this)"
+            /><label>Star Wars: Episode II - Attack of the Clones</label>
+          </section>
+          <section>
+            <input
+              name="itemStatus"
+              type="radio"
+              onclick="checkout(this)"
+            /><label>Star Wars: Episode III - Revenge of the Sith</label>
+          </section>
+          <section>
+            <input
+              name="itemStatus"
+              type="radio"
+              onclick="checkout(this)"
+            /><label>Star Wars</label>
+          </section>
+          <section>
+            <input
+              name="itemStatus"
+              type="radio"
+              onclick="checkout(this)"
+            /><label>Star Wars: Episode V - The Empire Strikes Back</label>
+          </section>
+          <section>
+            <input
+              name="itemStatus"
+              type="radio"
+              onclick="checkout(this)"
+            /><label>Star Wars: Episode VI - Return of the Jedi</label>
+          </section>
+          <section>
+            <input
+              name="itemStatus"
+              type="radio"
+              onclick="checkout(this)"
+            /><label>Star Wars: Episode VII - The Force Awakens</label>
+          </section>
+          <section>
+            <input
+              name="itemStatus"
+              type="radio"
+              onclick="checkout(this)"
+            /><label>Star Wars: Episode VIII - The Last Jedi</label>
+          </section>
+          <section>
+            <input
+              name="itemStatus"
+              type="radio"
+              onclick="checkout(this)"
+            /><label>Star Wars: Episode IX - The Rise of Skywalker</label>
+          </section>
+          <section>
+            <input
+              name="itemStatus"
+              type="radio"
+              onclick="checkout(this)"
+            /><label>Star Wars: Episode IX - The Rise of Skywalker</label>
+          </section>
+          <section>
+            <input
+              name="itemStatus"
+              type="radio"
+              onclick="checkout(this)"
+            /><label>Cloud Atlas</label>
+          </section>
+        </ul>
+        <section id="checkOut">
+          <p>Checkout:</p>
+          <p id="selectedBook">please select a book</p>
+        </section>
       </select-area>
     </main>
     <script src="library.js"></script>
